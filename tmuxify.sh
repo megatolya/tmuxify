@@ -2,6 +2,7 @@
 
 cur_dirname=$(basename $PWD)
 dirname=${1:-$cur_dirname}
+dirname=${dirname//[^a-zA-Z]/}
 
 sessions=$(tmux list-sessions -F "#{session_name}" 2>/dev/null)
 new_session=true
