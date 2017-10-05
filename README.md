@@ -4,6 +4,7 @@ run tmux ez 😌
 ```shell
 $ pwd
 ~/projects/example.com
+
 $ tmuxify # starts (or restores!) tmux session called examplecom (example.com not valid name)
 ```
 
@@ -25,5 +26,6 @@ or if you are in same directory
 ```shell
 $ pwd
 ~/projects/example.com
+
 $ tmuxify
 ```
