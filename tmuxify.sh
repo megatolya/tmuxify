@@ -1,5 +1,10 @@
 #!/bin/sh
 
+if [ "$1" == "-h" -o "$1" == "--help" ]; then
+    echo "See https://github.com/megatolya/tmuxify/blob/master/README.md for help"
+    exit 0
+fi
+
 cur_dirname=$(basename $PWD)
 dirname=${1:-$cur_dirname}
 dirname=${dirname//[^a-zA-Z]/}
