@@ -29,3 +29,8 @@ $ pwd
 
 $ tmuxify
 ```
+
+## Installation
+```shell
+curl -fsSL https://raw.githubusercontent.com/megatolya/tmuxify/master/install.sh | sh
+```
