@@ -22,7 +22,7 @@ In first example we started session in `~/projects/example.com`. If it want to c
 ```shell
 $ tmuxify example.com
 ```
-or if you are in same directory
+or if you are in same directory just type `tmuxify`:
 ```shell
 $ pwd
 ~/projects/example.com
