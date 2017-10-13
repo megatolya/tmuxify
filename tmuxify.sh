@@ -1,7 +1,11 @@
 #!/bin/sh
 
 if [ "$1" == "-h" -o "$1" == "--help" ]; then
-    echo "See https://github.com/megatolya/tmuxify/blob/master/README.md for help"
+    echo "Usage:"
+    echo "  tmuxify [session_name]"
+    echo ""
+    echo "See https://github.com/megatolya/tmuxify/blob/master/README.md for more info"
+    echo ""
     exit 0
 fi
 
