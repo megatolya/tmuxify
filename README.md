@@ -1,4 +1,5 @@
 # tmuxify
+
 run tmux ez 😌
 
 ```shell
@@ -8,7 +9,15 @@ $ pwd
 $ tmuxify # starts (or restores!) tmux session called examplecom (example.com not valid name)
 ```
 
+
+## Installation
+
+```shell
+curl -fsSL https://raw.githubusercontent.com/megatolya/tmuxify/master/install.sh | sh
+```
+
 ## What's the point?
+
 By default `tmux` pick numerical session name. 
 ```shell
 $ tmux list-sessions
@@ -28,9 +37,4 @@ $ pwd
 ~/projects/example.com
 
 $ tmuxify
-```
-
-## Installation
-```shell
-curl -fsSL https://raw.githubusercontent.com/megatolya/tmuxify/master/install.sh | sh
 ```
